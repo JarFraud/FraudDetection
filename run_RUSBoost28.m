@@ -33,13 +33,13 @@ for year_test = 2003:2008
     t_train = toc(t1);
     % turn on the following line of code if you want to get feature importance
     % [imp,ma] = predictorImportance(rusboost);
-    
+
     % test model
     t2 = tic;
     [label_predict,dec_values] = predict(rusboost,X_test); % predict frauds in the testing year
     dec_values = dec_values(:,2); % get fraud probability
     t_test = toc(t2);
-    
+
     % print evaluation results
     fprintf('Training time: %g seconds | Testing time %g seconds \n', t_train, t_test);
     metrics = evaluate(y_test,label_predict,dec_values,0.01); % topN=0.01
