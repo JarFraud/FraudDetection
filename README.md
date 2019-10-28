@@ -2,7 +2,7 @@ This repository contains the data and code that was used in our paper published 
 
 - Yang Bao, Bin Ke, Bin Li, Julia Yu, and Jie Zhang. Detecting Accounting Fraud in Publicly Traded U.S. Firms Using a Machine Learning Approach. Journal of Accounting Research, Accepted.
 
-### Data Description Sheet for the paper “Detecting Accounting Fraud in Publicly Traded U.S. Firms: A New Perspective and a New Method” by Yang Bao, Bin Ke, Bin Li, Y. Julia Yu, and Jie Zhang (November 2019)
+### Data Description Sheet for the paper "Detecting Accounting Fraud in Publicly Traded U.S. Firms Using a Machine Learning Approach" by Yang Bao, Bin Ke, Bin Li, Y. Julia Yu, and Jie Zhang (November 2019)
 
 *1. A description of which author(s) handled the data and conducted the analyses.*
 
