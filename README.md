@@ -41,5 +41,5 @@ This repository contains the data and code that was used in our paper published 
   The file “identifiers.csv” contains the identifiers (i.e., gvkey and fyear) of firm-year observations in our sample.
 
 6. An assurance that the data and programs will be maintained by at least one author (usually the corresponding author) for at least six years, consistent with National Science Foundation guidelines.
-
+  
   The authors will retain the data and programs for the required six years.
