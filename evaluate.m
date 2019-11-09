@@ -3,7 +3,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%
 
 function [results] = evaluate(label_true,label_predict,dec_values,topN)
-pos_class=1; % 1 as fraud label
+pos_class = 1; % 1 as fraud label
 neg_class = 0; % 0 as non-fraud label
 assert(length(label_true)==length(label_predict));
 assert(length(label_true)==length(dec_values));
