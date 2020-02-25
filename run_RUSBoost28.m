@@ -51,7 +51,7 @@ for year_test = 2003:2008
     % fprintf('Importance of predictors:%d\n', output.imp);
 
     % turn on the following lines of code if your want to save prediction results in a file
-    output_filename = ['prediction_rusboost28',num2str(year_test),'.csv'];
-    dlmwrite(output_filename,[data_test.years, data_test.firms, data_test.newpaaers, y_test, label_predict, dec_values],'precision','%g');
+    output_filename = ['prediction_rusboost28_',num2str(year_test),'.csv'];
+    dlmwrite(output_filename,[data_test.years, data_test.firms, y_test, dec_values],'precision','%g');
 
 end
