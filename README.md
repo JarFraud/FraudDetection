@@ -43,8 +43,53 @@ This repository contains the data and code that was used in our paper published 
   >
   > We also made the final dataset publicly available in our Github repository (https://github.com/JarFraud/FraudDetection).
   >
-  > The file "uscecchini28.csv" is our final dataset which contains the fraud labels and feature variables. The variable name of our fraud label is "misstate" (1 denotes fraud, and 0 denotes non-fraud). The variable names of the 28 raw financial data items are: act, ap, at, ceq, che, cogs, csho, dlc, dltis, dltt, dp, ib, invt, ivao, ivst, lct, lt, ni, ppegt, pstk, re, rect, sale, sstk, txp, txt, xint, prcc_f. The variable name of 14 financial ratios are: dch_wc, ch_rsst, dch_rec, dch_inv, soft_assets, ch_cs, ch_cm, ch_roa, issue, bm, dpi, reoa, EBIT, ch_fcf. The variable new_p_aaer is used for identifying serial frauds as described in Section 3.3 (see the code in “RUSBoost28.m” for more details).
-
+  > The file "uscecchini28.csv" is our final dataset which contains the fraud labels and feature variables. The variable name of our fraud label is "misstate" (1 denotes fraud, and 0 denotes non-fraud). The variable names of the 28 raw financial data items are: act, ap, at, ceq, che, cogs, csho, dlc, dltis, dltt, dp, ib, invt, ivao, ivst, lct, lt, ni, ppegt, pstk, re, rect, sale, sstk, txp, txt, xint, prcc_f. The variable names of the 14 financial ratios are: dch_wc, ch_rsst, dch_rec, dch_inv, soft_assets, ch_cs, ch_cm, ch_roa, issue, bm, dpi, reoa, EBIT, ch_fcf. The variable new_p_aaer is used for identifying serial frauds as described in Section 3.3 (see the code in “RUSBoost28.m” for more details).
+  >
+  > The description of the 28 raw accounting variables are as follows:
+  > + act -- Current Assets, Total
+  > + ap -- Account Payable, Trade
+  > + at -- Assets, Total
+  > + ceq - -Common/Ordinary Equity, Total
+  > + che -- Cash and Short-Term Investments
+  > + cogs -- Cost of Goods Sold
+  > + csho -- Common Shares Outstanding
+  > + dlc -- Debt in Current Liabilities, Total
+  > + dltis -- Long-Term Debt Issuance
+  > + dltt -- Long-Term Debt, Total
+  > + dp -- Depreciation and Amortization
+  > + ib -- Income Before Extraordinary Items
+  > + invt -- Inventories, Total
+  > + ivao -- Investment and Advances, Other
+  > + ivst -- Short-Term Investments, Total
+  > + lct -- Current Liabilities, Total
+  > + lt -- Liabilities, Total
+  > + ni -- Net Income (Loss)
+  > + ppegt -- Property, Plant and Equipment, Total
+  > + pstk -- Preferred/Preference Stock (Capital), Total
+  > + re -- Retained Earnings
+  > + rect -- Receivables, Total
+  > + sale -- Sales/Turnover (Net)
+  > + sstk -- Sale of Common and Preferred Stock
+  > + txp -- Income Taxes Payable
+  > + txt -- Income Taxes, Total
+  > + xint -- Interest and Related Expense, Total
+  > + prcc_f -- Price Close, Annual, Fiscal
+  >
+  > The description of the 14 financial ratio variables are as follows:
+  > + dch_wc -- WC accruals
+  > + ch_rsst -- RSST accruals
+  > + dch_rec -- Change in receivables
+  > + dch_inv -- Change in inventory
+  > + soft_assset -- % Soft assets
+  > + dpi -- Depreciation index
+  > + ch_cs -- Change in cash sales
+  > + ch_cm -- Change in cash margin
+  > + ch_roa -- Change in return on assets
+  > + ch_fcf -- Change in free cash flows
+  > + reoa -- Retained earnings over total assets
+  > + EBIT -- Earnings before interest and taxes over total assets
+  > + issue -- Actual issuance
+  > + bm -- Book-to-market
 
 
 *6. An assurance that the data and programs will be maintained by at least one author (usually the corresponding author) for at least six years, consistent with National Science Foundation guidelines.*
